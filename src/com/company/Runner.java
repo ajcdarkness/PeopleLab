@@ -1,5 +1,5 @@
 package com.company;
-
+// Jesse's code with Jacob Cedar's Seating Chart
 public class Runner {
     // Fields
     private static String[] firstNames = new String[]{"Abir","Madhi","Parker","Nusrat","Vincent","Jacob","Christina","Andrew","Zeng","Wilson","Mead","Aaron","Karwai","James","Eugene","Bryant","Sabrina","Lack","Kevin","Azarul","Nicholas","Arifur","Rachel","Chen","Kyle","Daniyah","Catelen","Edmund","Jackie","Aaron","Darren","Angela","Jesse"};

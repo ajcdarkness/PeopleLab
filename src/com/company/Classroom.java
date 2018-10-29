@@ -1,5 +1,5 @@
 package com.company;
-
+// Jesse's code with Jacob Cedar's Seating Chart
 public class Classroom {
     // Fields
     private Student[] students;
@@ -56,17 +56,16 @@ public class Classroom {
             studentString += "\n" + (i + 1) + ". " + students[i].toString();
         }
 
-        return "Teacher: " + teacher.toString() +
-                "\nSubject: " + teacher.getSubject() +
-                "\nStudents: " + studentString;
+        return "Teacher: " + teacher.toString() + "\nSubject: " + teacher.getSubject() + "\nStudents: " + studentString + "\n Seating Chart: " + seatingChart[0][1];
+
     }
 
     private void fillSeats() {
-        int idx = 0;
+        int count = 0;
         for (Student[] studentArr : seatingChart) {
             for (int i = 0; i < studentArr.length; i++) {
-                studentArr[i] = students[idx];
-                idx++;
+                studentArr[i] = students[count];
+                count++;
             }
         }
     }

@@ -1,5 +1,5 @@
 package com.company;
-
+// Jesse's code with Jacob Cedar's Seating Chart
 public class Student extends Person {
     // Fields
     private double GPA;
